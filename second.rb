@@ -6,6 +6,7 @@ Display product with the price.
 Select product and also enter the quantity of product.
 User should be able to select multiple products.
 Display Invoice, the invoice must have the name of user, the category of each product with the name, quantity, calculated price, and total amount with shipping rate and tax.
+if user enter item twice then marge there quantuty and price at the time of insertion
 =end
 class Abc
     
