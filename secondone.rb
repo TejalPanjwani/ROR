@@ -1,3 +1,13 @@
+#Invoice generating. (like Flipcart)
+=begin
+Ask user for name.
+Select the category of  products. Like (Electronics, Appliance, Clothing, Footwear, Toys etc) 
+Display product with the price.
+Select product and also enter the quantity of product.
+User should be able to select multiple products.
+Display Invoice, the invoice must have the name of user, the category of each product with the name, quantity, calculated price, and total amount with shipping rate and tax.
+if user enter item twice then marge there quantity and price at time of generat the bill
+=end
 class Abc
     
     @@ele={" Tv"=>10000," Tablets"=> 5000," Moblie" =>2000," Laptop "=>  45000," Charger" => 300}
@@ -138,7 +148,6 @@ for i in 0...@@finalArray.length
                             @@finalToPrintArray[j]["Quantity"] = @@finalArray[i]["Quantity"] + @@finalToPrintArray[j]["Quantity"]
                             @@finalToPrintArray[j]["Price"] = @@finalArray[i]["Price"] + @@finalToPrintArray[j]["Price"]
                             @@finalToPrintArray.delete(@@finalToPrintArray[j+1])
-                                  
                         end
                  else
                  puts "heyyyyyyy"
