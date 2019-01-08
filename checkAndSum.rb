@@ -18,6 +18,6 @@ if low > 0 && high >0
     print "\nsum of all the multiples of 3 or 5 between #{low} and #{high} is:  ",sum
     puts
 else
-    puts "Please enter natural numbers"
+    puts "Please enter natural numbers and natural numbers are 1,2,3......."
 end
 
